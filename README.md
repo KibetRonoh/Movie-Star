@@ -2,6 +2,7 @@
 
 1 Introduction 
 This document explains moviestore.py python code. It gives the general description of all the methods used, how they work and the citations used. 
+
 2 Classes  
 [18] class Movie(object): 
       This class describes movies, it is a parent class. The __init__ () method is the class constructor, it initializes the object attributes; name, price and category 
@@ -11,6 +12,8 @@ This document explains moviestore.py python code. It gives the general descripti
       This class describes movies, it is a parent class. The __init__ () method is the class constructor, it initializes the object attributes; name, movies_lent and movies 
 [44] class Loan(object): 
       This class describes movies, it is a parent class. The __init__ () method is the class constructor, it initializes the object attributes; number_of_days   
+      
+      
 3 Methods 
 [50] def enter_movie():  
  Does not return anything. This method allows the storekeeper add movies to the movie store. There are three categories of movies namely; new_release, children’s, and regular. When the store keeper enters 
