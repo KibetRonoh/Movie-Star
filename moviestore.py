@@ -24,7 +24,7 @@ class Movie(object):
 
 # define a customer        
 class Customer(object):
-    # class constructor
+    # class constructorconstructor
     def __init__(self, name, idno,my_movies=[], fines=[], movies_returned=[]):
         self.my_movies= my_movies
         self.name = name
